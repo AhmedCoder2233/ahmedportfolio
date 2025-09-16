@@ -67,7 +67,7 @@ const Hero = () => {
             <img
               src="ahmed.JPG"
               alt="Profile"
-              className="w-full h-full object-cover"
+              className="w-full h-full"
             />
             {/* Overlay Gradient */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
