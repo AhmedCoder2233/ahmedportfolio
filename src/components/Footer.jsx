@@ -18,14 +18,6 @@ export default function Footer() {
     >
       WhatsApp
     </a>
-    <a
-      href="https://www.google.com/maps/place/Karachi,+Pakistan"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:underline"
-    >
-      Location
-    </a>
   </div>
 </footer>
 
