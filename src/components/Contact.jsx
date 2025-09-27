@@ -32,14 +32,11 @@ export default function Contact() {
         </div>
 
         <div className="flex justify-center gap-6 mt-10 text-2xl">
-          <a href="https://linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/ahmed-memon-5550642b5/" target="_blank">
             <FaLinkedin className="hover:text-blue-400 transition" />
           </a>
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/AhmedCoder2233?tab=repositories" target="_blank">
             <FaGithub className="hover:text-gray-400 transition" />
-          </a>
-          <a href="https://twitter.com" target="_blank">
-            <FaTwitter className="hover:text-sky-400 transition" />
           </a>
         </div>
       </div>
