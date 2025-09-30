@@ -9,7 +9,7 @@ export default function Projects() {
     },
     {
       title: "Complete Automation For Restaurent",
-      img: "/Screenshot Capture - 2025-09-30 - 16-20-10.png",
+      img: "/Screenshot Capture - 2025-09-30 - 16-17-23.png",
       tech: ["n8n", "OpenAI Agents SDK", "FastAPI"],
     },
     {
