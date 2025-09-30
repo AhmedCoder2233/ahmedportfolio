@@ -13,9 +13,10 @@ export default function Projects() {
       tech: ["n8n", "OpenAI Agents SDK", "FastAPI"],
     },
     {
-      title: "Fully Automated AI Receptionist",
-      img: "/pro3.png",
-      tech: ["OpenAI Agents SDK", "FastAPI", "Reactjs"],
+      title: "Fully Animated Minecraft Website",
+      img: "/Screenshot Capture - 2025-09-30 - 16-20-10.png",
+      tech: ["Framer Motion", "TailwindCSS", "Reactjs"],
+      link: "https://season-mc.vercel.app/"
     },
     {
       title: "Fully Automated HR Agentic System",
@@ -26,13 +27,13 @@ export default function Projects() {
       title: "Full Stack E-Commerce Website",
       img: "/pro5.webp",
       tech: ["Next.js", "TypeScript", "Sanity"],
-      link: "https://your-ecommerce-live-link.com", // live link yahan
+      link: "https://final-hackathon-3-zzop.vercel.app/", 
     },
     {
       title: "Modern Minecraft Website/Store",
       img: "/pro6.webp",
-      tech: ["Next.js", "Tailwind"],
-      link: "https://your-minecraft-live-link.com", // live link yahan
+      tech: ["Next.js", "Tailwind", "Framer Motion"],
+      link: "https://mine-craft-website-nbbv.vercel.app/",
     },
   ];
 
