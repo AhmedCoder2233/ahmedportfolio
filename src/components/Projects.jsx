@@ -26,16 +26,21 @@ export default function Projects() {
       title: "Full Stack E-Commerce Website",
       img: "/pro5.webp",
       tech: ["Next.js", "TypeScript", "Sanity"],
+      link: "https://your-ecommerce-live-link.com", // live link yahan
     },
     {
       title: "Modern Minecraft Website/Store",
       img: "/pro6.webp",
       tech: ["Next.js", "Tailwind"],
+      link: "https://your-minecraft-live-link.com", // live link yahan
     },
   ];
 
   return (
-    <section className="relative py-20 bg-gradient-to-br from-blue-950 via-purple-900 to-black text-white overflow-hidden" id="projects">
+    <section
+      className="relative py-20 bg-gradient-to-br from-blue-950 via-purple-900 to-black text-white overflow-hidden"
+      id="projects"
+    >
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">🚀 My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -61,6 +66,18 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+
+                {/* Sirf agar link ho tab button show kare */}
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-2 rounded-xl font-medium hover:opacity-90 transition"
+                  >
+                    🔗 Live Link
+                  </a>
+                )}
               </div>
             </div>
           ))}
